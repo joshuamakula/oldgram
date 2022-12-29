@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #F5F5F5;
+}
+
+.container{
+    width: 375px;
+    height: 620px;
+    background: #FFFFFF;
+    margin: 20px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+    height: 67px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo {
+    width: 127px;
+    margin-left: 10px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    margin-right: 16px;
+}
+
+.details-info {
+    width: 348px;
+    height: 34px;
+    margin: 10px 17px 11px 10px;
+    display: flex;
+}
+
+.name-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 7px;
+}
+
+.name {
+    font-weight: 700
+}
+
+.location{
+    font-weight: 400;
+}
+
+.post{
+    width: 100%;
+    height: 375px;
+}
+
+.share-section{
+    width: 104.34px;
+    height: 22.13px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    transition: transform .2s;
+}
+
+.icon:hover{
+    color: purple;
+    cursor: pointer;
+    transform: scale(1.5)
+}
+
+.likes{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.likes-comments {
+    margin-top: 22px;
+    margin-left: 13px;
+}
